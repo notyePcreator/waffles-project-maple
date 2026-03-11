@@ -1,0 +1,40 @@
+[\n  {  
+    "name": "Canadian Laser",  
+    "color": "red",  
+    "effect": "laser beam attack",  
+    "damage": 50,  
+    "duration": 5,  
+    "cooldown": 30  
+  },  
+  {  
+    "name": "Megaphone",  
+    "color": "blue",  
+    "effect": "amplify sound waves",  
+    "damage": 0,  
+    "duration": 10,  
+    "cooldown": 60  
+  },  
+  {  
+    "name": "Maple Syrup",  
+    "color": "brown",  
+    "effect": "slow down opponents",  
+    "damage": 0,  
+    "duration": 15,  
+    "cooldown": 45  
+  },  
+  {  
+    "name": "Wings",  
+    "color": "white",  
+    "effect": "fly",  
+    "damage": 0,  
+    "duration": 20,  
+    "cooldown": 120  
+  },  
+  {  
+    "name": "Super Jump",  
+    "color": "green",  
+    "effect": "high jump",  
+    "damage": 0,  
+    "duration": 5,  
+    "cooldown": 30  
+  }\n]
