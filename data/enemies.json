@@ -1,0 +1,48 @@
+{
+  "enemies": [
+    {
+      "name": "The Baked Ones",
+      "type": "enemy",
+      "stats": {
+        "health": 50,
+        "attack": 10,
+        "defense": 5
+      },
+      "behavior": "Patrols area and attacks when approached.",
+      "drops": ["bread crumbs", "sourdough loaf"]
+    },
+    {
+      "name": "French Flies",
+      "type": "enemy",
+      "stats": {
+        "health": 30,
+        "attack": 5,
+        "defense": 2
+      },
+      "behavior": "Flies around and distracts players.",
+      "drops": ["fly sticky goo", "mini baguette"]
+    },
+    {
+      "name": "PopHoppers",
+      "type": "enemy",
+      "stats": {
+        "health": 40,
+        "attack": 8,
+        "defense": 4
+      },
+      "behavior": "Hops towards players and deals damage on impact.",
+      "drops": ["popcorn kernel", "butter sauce"]
+    },
+    {
+      "name": "Poe-Tait-Oh",
+      "type": "boss",
+      "stats": {
+        "health": 200,
+        "attack": 20,
+        "defense": 15
+      },
+      "behavior": "Summons minions and performs heavy attacks.",
+      "drops": ["golden trophy", "infinite waffles"]
+    }
+  ]
+}
