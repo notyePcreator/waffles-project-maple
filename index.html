@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-area">
+        <h1>Login</h1>
+        <form id="login-form">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div id="lobby-area" style="display:none;">
+        <h1>Lobby</h1>
+        <ul id="player-list">
+            <!-- Player list will be populated here -->
+        </ul>
+        <button id="start-button">Start Game</button>
+    </div>
+    <div id="game-canvas-area" style="display:none;">
+        <h1>Game Area</h1>
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
